@@ -1,0 +1,102 @@
+/* ========= RESET Y FUENTES ========= */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Gulfs Display";
+    src: url(/fonts/GulfsDisplay-Normal.ttf);
+}
+@font-face {
+    font-family: 'Anybody', sans-serif;
+    src: url(/fonts/Anybody-BF64c4fc1bc8f8a.otf);
+}
+
+/* ========= CONTAINER PRINCIPAL ========= */
+.principal {
+    width: 100%;  /* Se aprovecha el 100% del ancho de la pantalla */
+    display: flex;
+    flex-direction: column;
+}
+.contenedor {
+    position: relative;
+}
+
+/* ========= HEADER ========= */
+header {
+    display: flex;
+    background-color: pink;
+    height: 96vh;
+    border-bottom: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;      /* Aumenta el espacio interno */
+    margin-bottom: 60px;     /* Espacio inferior para separar secciones */
+}
+.img-cir-lado0 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 115px;
+    transform: rotate(-90deg);
+}
+.circulo-conten {
+    position: absolute;
+    background-color: pink;
+    border-radius: 70px;
+    height: 110px;
+    width: 110px;
+    top: 21px;
+    right: 24px;
+}
+.img-linea-logo {
+    position: absolute;
+    top: 30px;
+    right: 27px;
+    width: 50%;
+}
+header h1 {
+    position: absolute;
+    z-index: 1;
+    color: blue;
+    text-align: center;
+    font-family: 'Gulfs Display';
+    top: 450px;
+    line-height: 65px;
+    font-weight: 400;
+    font-size: clamp(75px, 10vw, 768px);
+}
+.pfoto {
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 160px;
+    width: 100%;
+    max-width: 768px;
+    top: 625px;
+}
+.img-hero1 {
+    position: absolute;
+    left: 65px;
+    top: 515px;
+    width: 5%;
+}
+.img-hero2 {
+    position: absolute;
+    left: 20px;
+    top: 690px;
+}
+.img-hero-azul {
+    position: absolute;
+    right: 70px;
+    top: 690px;
+    width: 10%;
+}
+.img-hero3 {
+    position: absolute;
+    right: 80px;
+    top: 780px;
+    width: 4%;
+}
+

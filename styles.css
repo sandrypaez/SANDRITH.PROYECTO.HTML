@@ -213,3 +213,72 @@
 .circulo-blanco:hover {
   transform: scale(1.1);
 }
+@media (min-width: 769px) {
+  .principal {
+    height: 500vh;
+    width: 100%;
+  }
+  .img-cir-lado0,
+  .circulo-conten,
+  .img-linea-logo {
+    display: none;
+  }
+  .img-hero1 { width: 5%; }
+  .img-hero-azul { width: 10%; }
+  .img-hero3 { width: 4%; }
+  .img-circulo { width: 15%; }
+}
+
+.contenedor-ovalo {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.ovalo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.texto-central {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  color: #1c1c1c;
+  text-align: center;
+  font-weight: bold;
+}
+
+.decoracion {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.img-circulo {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 60px;
+  transform: rotate(-10deg);
+}
+
+.img-cir-lado1 {
+  position: absolute;
+  top: 10px;
+  right: 10%;
+  width: 50px;
+  transform: rotate(15deg);
+}
+
+.img-cir-lado2 {
+  position: absolute;
+  top: 5px;
+  left: 10%;
+  width: 50px;
+  transform: rotate(-15deg);
+}

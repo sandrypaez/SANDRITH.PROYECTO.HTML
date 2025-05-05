@@ -193,3 +193,23 @@
     align-items: center;
     justify-content: center;
   }
+.circulo-blanco {
+  width: 170px;
+  height: 170px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  right: 82px;
+  z-index: 2;
+  font-family: 'Gulfs Display', sans-serif;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  transition: transform 0.3s ease;
+}
+.circulo-blanco:hover {
+  transform: scale(1.1);
+}
